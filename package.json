@@ -1,0 +1,38 @@
+{
+  "name": "shosha-admin",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "",
+  "secure": false,
+  "dependencies": {
+    "axios": "^0.20.0",
+    "history": "5",
+    "moment": "^2.29.3",
+    "react": "^17.0.2",
+    "react-confirm-alert": "^2.7.0",
+    "react-dom": "^17.0.2",
+    "react-images-upload": "^1.2.8",
+    "react-router-dom": "6",
+    "react-scripts": "^2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "gh-pages": "^1.2.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
